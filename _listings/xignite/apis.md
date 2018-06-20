@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Prices
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/prices/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
@@ -21,10 +21,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://bonds.xignite.com/xBonds.json/XigniteBonds//GetDailyOpenHighLowClosePrices
-  tags: Daily, Open, High, Low, Close, Prices
+  tags: Market Data,Daily, Open, High, Low, Close, Prices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/prices/master/_listings/xignite/getdailyopenhighlowcloseprices-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/prices/master/_listings/xignite/getdailyopenhighlowcloseprices-get-openapi.md
 - name: Xignite Bonds Get Yearly High Low Prices
   x-api-slug: xignite-bonds
   description: Returns yearly high, low prices for the list of bonds specified in
@@ -33,10 +33,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://bonds.xignite.com/xBonds.json/XigniteBonds//GetYearlyHighLowPrices
-  tags: Yearly, High, Low, Prices
+  tags: Market Data,Yearly, High, Low, Prices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/prices/master/_listings/xignite/getyearlyhighlowprices-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/prices/master/_listings/xignite/getyearlyhighlowprices-get-openapi.md
 - name: Xignite Bonds
   x-api-slug: xignite-bonds
   description: Financial market data on-demand. Xignite financial Web services help
@@ -54,10 +54,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical//GetGlobalLastClosingPrices
-  tags: Global, Last, Closing, Prices
+  tags: Market Data,Global, Last, Closing, Prices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/prices/master/_listings/xignite/getgloballastclosingprices-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/prices/master/_listings/xignite/getgloballastclosingprices-get-openapi.md
 - name: Xignite Global Historical
   x-api-slug: xignite-global-historical
   description: Financial market data on-demand. Xignite financial Web services help
@@ -75,10 +75,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetLastClosingPrices
-  tags: Last, Closing, Prices
+  tags: Market Data,Last, Closing, Prices
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/prices/master/_listings/xignite/getlastclosingprices-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/prices/master/_listings/xignite/getlastclosingprices-get-openapi.md
 - name: Xignite Historical Get Last Closing Prices Adjusted
   x-api-slug: xignite-historical
   description: Returns last closing price for a collection of securities.This include
@@ -86,20 +86,20 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetLastClosingPricesAdjusted
-  tags: Last, Closing, Prices, Adjusted
+  tags: Market Data,Last, Closing, Prices, Adjusted
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/prices/master/_listings/xignite/getlastclosingpricesadjusted-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/prices/master/_listings/xignite/getlastclosingpricesadjusted-get-openapi.md
 - name: Xignite Historical Get Last Closing Prices Ordered
   x-api-slug: xignite-historical
   description: Returns last closing price for a collection of securities.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetLastClosingPricesOrdered
-  tags: Last, Closing, Prices, Ordered
+  tags: Market Data,Last, Closing, Prices, Ordered
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/prices/master/_listings/xignite/getlastclosingpricesordered-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/prices/master/_listings/xignite/getlastclosingpricesordered-get-openapi.md
 - name: Xignite Historical Get Last Closing Prices Ordered Adjusted
   x-api-slug: xignite-historical
   description: Returns last closing price for a collection of securities.This include
@@ -107,10 +107,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetLastClosingPricesOrderedAdjusted
-  tags: Last, Closing, Prices, Ordered, Adjusted
+  tags: Market Data,Last, Closing, Prices, Ordered, Adjusted
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/prices/master/_listings/xignite/getlastclosingpricesorderedadjusted-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/prices/master/_listings/xignite/getlastclosingpricesorderedadjusted-get-openapi.md
 - name: Xignite Historical
   x-api-slug: xignite-historical
   description: Financial market data on-demand. Xignite financial Web services help
@@ -123,7 +123,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/prices/master/_listings/xignite/openapi.md
 x-common:
-- type: x-net-sdk
+- type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
 - type: x-base
   url: http://globalmaster.xignite.com
@@ -183,6 +183,10 @@ x-common:
   url: https://resources.xignite.com/webinars
 - type: x-website
   url: http://www.xignite.com
+- type: x-website
+  url: http://xignite.com
+- type: x-website
+  url: http://xignite.com/
 - type: x-white-papers
   url: http://www.xignite.com/market-data/resources/white-papers/
 include: []

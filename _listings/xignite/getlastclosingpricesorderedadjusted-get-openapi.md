@@ -1,10 +1,11 @@
 ---
 swagger: "2.0"
 x-collection-name: Xignite
-x-complete: 1
+x-complete: 0
 info:
-  title: Xignite Historical
-  description: this-web-service-provides-historical-security-pricing-for-us-equities-
+  title: Xignite Historical Get Last Closing Prices Ordered Adjusted
+  description: Returns last closing price for a collection of securities.This include
+    the splits and dividends adjusted price
   version: 1.0.0
 host: www.xignite.com
 basePath: xHistorical.json/XigniteHistorical
@@ -97,4 +98,17 @@ paths:
       - Prices
       - Ordered
       - Adjusted
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---
